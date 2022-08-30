@@ -1,0 +1,56 @@
+<!-- category bar -->
+<div class="container-fluid ">
+    <div class="container d-flex">
+        <div >
+            <a (click)="filter('')" >
+                <img style="width: 100px ;margin-top: 10px;"  class="rounded-circle" src="https://i.postimg.cc/zBSqkdRv/allbooks.jpg" alt="">
+                <h6>All categories</h6>
+            </a>
+        </div>
+        <div>
+            <a (click)="filter('comedy')">
+                <img style="width: 120px;margin-left: 20px;margin-top: 10px" class="rounded-circle" src="https://i.postimg.cc/L4Q8Qbbg/best-comedy-audiobooks-collection-card-CB1579018750.png" alt="">
+                <h6 style="text-align:center;">Comedy</h6>
+            </a>
+        </div>
+        
+        <div>
+            <a (click)="filter('thriller')" >
+                <img style="width: 100px; height: 100px;margin-left: 20px;margin-top: 10px" class="rounded-circle" src="https://i.postimg.cc/sfW3Kg7q/thriller-book-icon-flat-style-thriller-book-icon-flat-illustration-thriller-book-vector-icon-web-des.jpg" alt="">
+                <h6 style="text-align:center;">Thriller</h6>
+            </a>
+        </div>
+        <div>
+            <a (click)="filter('kids')">
+                <img style="width: 92px;margin-left: 20px;margin-top: 10px;" class="rounded-circle" src="https://i.postimg.cc/pXxMZY25/open-book-with-children-icons-vector-20983575.jpg" alt="">
+                <h6 style="text-align:center;">Kids</h6>
+            </a>
+        </div>
+        <div>
+            <a (click)="filter('horror')">
+                <img style="width: 110px; height: 100px;margin-left: 20px;margin-top: 10px" class="rounded-circle" src="https://i.postimg.cc/13rtB3hs/horror-book-icon-flat-style-vector-34226755.jpg"alt="">
+                <h6 style="text-align:center;">Horror</h6>
+            </a>
+        </div>
+        
+        <div>
+          
+       
+    </div>
+    </div>
+    
+   <!-- book list -->
+   <div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of filterCategory ">
+            <div class="card col-md-3">
+                <img src="{{item.image}}" alt="">
+                <h5 style="overflow:hidden;height:60px;text-overflow: ellipsis;">{{item.title}}</h5>
+                <p style="white-space: nowrap;overflow:hidden;text-overflow:ellipsis;max-height: 200px;">{{item.description}}</p>
+                <p><strong>Price:</strong>${{item.price}}</p>
+                <button class="btn btn-primary"(click)="addtocart(item)">Add to cart</button>
+            </div>
+        </ng-container>
+        
+    </div>
+   </div>

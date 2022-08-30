@@ -1,0 +1,36 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Corporate Comedy",
+            "price": 200,
+            "description": "The saber-rattling ‘Knight’ and the family lore of the ‘Errant Father’ make for amusing reading. How did the ‘Mermaid’ with its superlative striking power end up in its watery grave? The action packed account of the conquest of ‘Mount Everest’ floating in the Bay of Bengal is a thrilling experience. The ‘Smoke Stack Tyrant’ and the ‘Tin Soldier’ are relics of a corporate culture in bygone years. What did Gurucharan find in the meadows where the eves graze? Corporate Comedy is all that you need for a guilty pleasure – an interesting narrative married to anecdotes, warped and woven, with a subtle sense of humour.",
+            "category": "comedy",
+            "image": "https://i.postimg.cc/W1GSTKCX/51t-Gptez-Ny-L-SX311-BO1-204-203-200.jpg"
+        },
+        {
+            "id": 2,
+            "title": "The Silent Patient",
+            "price": 230,
+            "description": "Alicia Berenson’s life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London’s most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word.",
+            "category": "thriller",
+            "image": "https://i.postimg.cc/P55pMjgb/1585335118-41bsvx-NUSd-L.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Grandmas bag of stories",
+            "price": 170,
+            "description": "Best story books for kids in India",
+            "category": "kids",
+            "image": "https://i.postimg.cc/mZdGHWSW/Master.webp"
+        },
+        {
+            "id": 1,
+            "title": "That Night",
+            "price": 250,
+            "description": "Nidhi Upadhyay is an engineer-turned-headhunter. For years, Nidhi spent her days matchmaking senior executives to their dream jobs and her nights reading thrillers, until her husband borderline bullied her into writing one. She lives in Singapore with her doting husband and two exceptionally loving but polar-opposite boys. That Night is her debut novel.",
+            "category": "horror",
+            "image": "https://i.postimg.cc/bJJmXWS1/81b1-PP4-RK1-L-AC-SR360-460.jpg"
+        }
+    ]
+}
